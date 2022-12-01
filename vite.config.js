@@ -11,5 +11,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'product-preview-card-component'
+  base: '/product-preview-card-component/'
 })
